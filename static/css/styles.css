@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+}
+
+body {
+  background-color: #2148c0;
+  background-image: url("../images/ellipsis.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+  position: relative;
+  margin: 20px 0px 20px 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 63.33px;
+  text-align: center;
+  top: 0;
+}
+
+.input-box {
+  position: relative;
+  top: 0;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px 90px 15px 60px;
+  background-color: #2148c0;
+  box-sizing: border-box;
+}
+
+/* .password {
+  position: relative;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px 90px 15px 40px;
+  background-color: #2148c0;
+  box-sizing: border-box;
+} */
+
+.input-icon {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  bottom: 0;
+  
+}
+
+
+.cart {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.button-login {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  color: #2148c0;
+  border: 1px solid white;
+  padding: 15px 90px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+.forgot-pw {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.form-container {
+  max-width: 300px;
+  height: 300px;
+  position: relative;
+  top: 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+}
+
+a:link {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: unset;
+}
+
+a:visited {
+  color: white;
+  font-family: sans-serif;
+}
+
+input {
+  color: white;
+  font-size: 18px;
+  outline: none;
+  /* outline-color: white; /* Se o cliente preferir da para usar essa também ao invés de nenhuma, ou deixa para o designer decidir*/ 
+}
+ 
+a:hover {
+  text-decoration: underline;
+}
